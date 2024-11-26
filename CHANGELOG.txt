@@ -1,0 +1,47 @@
+v1 (06/06/2021)
++ Initial project creation.
++ Initial GUI design.
++ Implemented basic PoS functionality with basic database.
+
+v1.1 (07/06/2021)
++ Added side buttons, no functionality on said buttons yet.
+- Improved aesthetic design.
+- Completely reworked database format.
+- Extensively reworked the code, modularized and removed most repeated code.
+
+v1.2 (08/06/2021)
++ Added a basic JFrame for Database entry management.
++ Added a basic JFrame for future Login system.
++ Added a bill printing interface and function.
+- Aesthetics updated.
+
+v1.3 (14/06/2021)
++ Added detailed comments and code segmenting to improve code readability.
++ Added side button icons and functionality.
++ Initial database query framework for the future database management system.
+- Completely reworked the database query system, now put on a seperate class (DatabaseHandler).
+
+v1.4 (15/06/2021)
++ Added a basic UI for the database management system.
++ Added a product class to simplify database management (adding items).
++ Added functionality to the database management system.
+    -> Add items.
+    -> Modify items.
+    -> Delete items.
++ Slight improvement to the database query function. Added additional modularization.
+- Cleaned up messy & excessive inter-method dependency on the DatabaseHandler class.
+- Overhauled the database query system to handle multiple queries.
+
+v1.5 (20/06/2021)
++ Added a UI Pop-up for handling messages (error messages, warnings, success messages, etc).
++ Added two "User Account Manager (UAM)" UIs for user account management.
++ Added "Account" class for login/registration system.
++ Implemented an account registration / deletion service.
++ Implemented a fully functional login system.
++ Implemented a login cache.
+- Revamped the database manager into three seperate windows.
+- Removed some buggy code.
+- Improved memory overhead by disposing unused UIs.
+
+v.1.6 (21/06/2021)
++ Added permission limitation to the account management system to Administrator only.
